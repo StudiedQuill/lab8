@@ -3,9 +3,9 @@ function init(){
   var out = document.getElementById('entrybutton');
   
   function output(){
-    var in = document.getElementById('entryinput');
-	document.getElementById('textoutput').innerHTML = textbox.value;
-    alert("John Maravilla: " + textbox.value);
+    var input = document.getElementById('entryinput');
+	document.getElementById('textoutput').innerHTML = input.value;
+    alert("John Maravilla: " + input.value);
   }
   
   out.addEventListener('click', output);
